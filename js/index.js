@@ -26,4 +26,9 @@ console.log('you have hit the space bar');
 
 links.addEventListener('resize', function (event) {
 document.style.fontSize = '4rem';
-})
+});
+
+contHome.addEventListener('click', function (event) {
+document.style.bordersize = '2px solid black';
+});
+
