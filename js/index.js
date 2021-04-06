@@ -23,3 +23,7 @@ h1Logo.addEventListener('keydown', function (event) {
 console.log('you have hit the space bar');
  }
 });
+
+links.addEventListener('resize', function (event) {
+document.style.fontSize = '4rem';
+})
